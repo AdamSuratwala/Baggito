@@ -149,19 +149,19 @@
 	font-family: Raleway;
 	font-weight: 900;
 	font-size: 14px;
-	padding-right: 140px;
-	padding-left: 130px;
+	padding-right: 130px;
+	padding-left: 125px;
 }
 
 
 .secondbar a:first-child{
-	padding-left: 15px;
+	padding-left: 5px;
 	padding-right: 135px;
 }
 
 .secondbar a:last-child{
 	padding-left: 130px;
-	padding-right: 15px;
+	padding-right: 5px;
 }
 
 
@@ -216,9 +216,10 @@ body{
 .container .card .content{
 	position: relative;
 	font-family: Arial;
-	font-size: 15px;
+	font-size: 14px;
 	margin-top: -100px;
 	padding: 15px 15px;
+	justify-content: center;
 	text-align: center;
 	color: black;
 	visibility: hidden;
@@ -333,6 +334,7 @@ body{
 	line-height: 25px;
 }
 
+
 h4{
 	margin: 10px 0;
 	color: black;
@@ -386,10 +388,10 @@ li i{
 }
 
 .socialmedia i{
-	height: 15px;
-	width: 15px;
-	margin: 20px 5px;
-	padding: 10px;
+	height: 20px;
+	width: 20px;
+	margin: 10px;
+	padding: 15px;
 	color: #fff;
 	border-radius: 50%;
 	border: 1px solid grey;
@@ -397,18 +399,20 @@ li i{
 }
 
 .socialmedia i:hover{
-	background: grey;
+	background: #ff9800;
 }
 
 .footerbottom{
 	padding: 10px;
-	background: #3d545f;
-	color: #fff;
-	font-size: 12px;
+	background: #84817a;
+	text-align: center;
+	font-weight: lighter;
+	color: #303952;
+	font-size: 15px;
 }
 
 
-@media screen and (max-width: 1085px){
+@media screen and (max-width: 1275px){
 	.footeritems{
 		width: 50%;
 	}
