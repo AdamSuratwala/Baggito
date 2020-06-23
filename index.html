@@ -1,116 +1,166 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
 	<title>Baggito</title>
+	<script src="https://kit.fontawesome.com/cb97997fae.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<table>
-		<tbody>
-			<tr>
-				<td><h1>Baggito     </h1></td>
-				<td><h2>Search Baggito........     </h2></td>
-				<td><h2>LOGIN/SIGNUP     </h2></td>
-				<td><h2>YOUR CART     </h2></td>
-				<td><h2>WISHLIST     </h2></td>
-			</tr>
-			<br><br>
-			<tr>
-				<td><h4>PRODUCTS</h4></td>
-				<td><h4>COLLAB</h4></td>
-				<td><h4>ABOUT US</h4></td>
-			</tr>
-		</tbody>
-	</table>
+	<div class="header"
+		<div class="innerheader">
+			<div class="logocontainer">
+				<h1>Baggito</h1>	
+			</div>
+			<div class="search-box">
+				<input class="searchtxt"type="text" name="" placeholder="Search Baggito........   ">
+				<a class="searchbtn" href="#">
+					<i class="fas fa-search"></i>	
+				</a>
+			</div>
+			<ul class="navigation">
+				<a><li>LOGIN/SIGNUP</li></a>
+				<a><li>YOUR CART</li></a>
+				<a><li>WISHLIST</li></a>
+			</ul>
+		</div>
+	</div>
 
+	<div class="secondheader">
+		<ul class="secondbar">
+				<a><li>PRODUCTS</li></a>
+				<a><li>COLLAB</li></a>
+				<a><li>ABOUT US</li></a>
+		</ul>
+	</div>
 
-	<table>
-		<tbody>
-			<tr>
-				<td><img src="Sling.jpg" width="150" height="150"></td>
-				<td><img src="Bagpack.jpg" width="150" height="150"></td>
-				<td><img src="Hobo.jpg" width="150" height="150"></td>
-			</tr>
-			<tr>
-				<td><h4>SLING BAGS</h4></td>
-				<td><h4>BAG PACKS</h4></td>
-				<td><h4>HOBO BAGS</h4></td>
-			</tr>
-			<tr>
-				<td>Sling bag is an unstructured fabric shoulder bag that can either be worn parallel to your body, or across it.</td>
-				<td>A bagpack is a cloth sack carried on one's back and secured with two straps that go over the shoulders.</td>
-				<td>The hobo bag is a handbag or purse that is typically large and characterized by a crescent shape, a slouchy posture and a long strap.</td>
-			</tr>
-			<br><br>
-			<tr>
-				<td><img src="Wallets.jpg" width="150" height="150"></td>
-				<td><img src="Organisers.jpg" width="150" height="150"></td>
-				<td><img src="Handbags.jpg" width="150" height="150"></td>
-			</tr>
-			<tr>
-				<td><h4>WALLETS</h4></td>
-				<td><h4>ORGANISERS</h4></td>
-				<td><h4>HANDBAGS</h4></td>
-			</tr>
-			<tr>
-				<td>A wallet is a small, flat case that can be used to carry such small personal items as paper currency, credit cards, and identification documents.</td>
-				<td>A handbag organizer, multi-pocket to organize your bags, away from messy bags and help you find things efficiently.</td>
-				<td>A handbag is any type of bag or case that can be carried either by hand or over the shoulder.</td>
-			</tr>
-			<tr>
-				<td><img src="Saree.jpg" width="150" height="150"></td>
-				<td><img src="Tote.jpg" width="150" height="150"></td>
-			</tr>
-			<tr>
-				<td><h4>SAREE POUCHES</h4></td>
-				<td><h4>TOTE BAGS</h4></td>
-			</tr>
-			<tr>
-				<td>Pack, zip, and transport household essentials with a clear view! The generous size compartment provides plenty of room for clothing storage,saree pouches, etc.</td>
-				<td>A tote bag is a large and often unfastened bag with parallel handles that emerge from the sides of its pouch.</td>
-			</tr>
-		</tbody>
-	</table>
+	<div class="container">
+		<div class="card">
+			<div class="image">
+				<img src="Sling.jpg" width="250" height="250">
+			</div>
+			<div class='content'>
+				<h4>SLING BAGS</h4>
+				<p>Sling bag is an unstructured fabric shoulder bag that can either be worn parallel to your body, or across it.</p>
+			</div>
+		</div>
+		<div class="card">
+			<div class="image">
+				<img src="Bagpack.jpg" width="250" height="250">
+			</div>
+			<div class='content'>
+				<h4>BAG PACKS</h4>
+				<p>A bagpack is a cloth sack carried on one's back and secured with two straps that go over the shoulders.</p>
+			</div>
+		</div>
+		<div class="card">
+			<div class="image">
+				<img src="Hobo.jpg" width="250" height="250">
+			</div>
+			<div class='content'>
+				<h4>HOBO BAGS</h4>
+				<p>The hobo bag is a handbag or purse that is typically large and characterized by a crescent shape, a slouchy posture and a long strap.</p>
+			</div>
+		</div>	
+		<div class="card">
+			<div class="image">
+				<img src="Wallets.jpg" width="250" height="250">
+			</div>
+			<div class='content'>
+				<h4>WALLETS</h4>
+				<p>A wallet is a small, flat case that can be used to carry such small personal items as paper currency, credit cards, and identification documents.</p>
+			</div>
+		</div>	
+		<div class="card">
+			<div class="image">
+				<img src="Organisers.jpg" width="250" height="250">
+			</div>
+			<div class='content'>
+				<h4>ORGANISERS</h4>
+				<p>An organizer, multi-pocket to organize your bags, away from messy bags and help you find things efficiently.</p>
+			</div>
+		</div>
+		<div class="card">
+			<div class="image">
+				<img src="Handbags.jpg" width="250" height="250">
+			</div>
+			<div class='content'>
+				<h4>HANDBAGS</h4>
+				<p>A handbag is any type of bag or case that can be carried either by hand or over the shoulder.</p>
+			</div>
+		</div>
+		<div class="card">
+			<div class="image">
+				<img src="Saree.jpg" width="250" height="250">
+			</div>
+			<div class='content'>
+				<h4>SAREE POUCHES</h4>
+				<p>Pack, zip, and transport household essentials with a clear view! The generous size compartment provides plenty of room for clothing storage,saree pouches, etc.</p>
+			</div>
+		</div>
+		<div class="card">
+			<div class="image">
+				<img src="Tote.jpg" width="250" height="250">
+			</div>
+			<div class='content'>
+				<h4>TOTE BAGS</h4>
+				<p>A tote bag is a large and often unfastened bag with parallel handles that emerge from the sides of its pouch.</p>
+			</div>
+		</div>		
+	</div>
+			
+	<div class="footer">
+		<div class="innerfooter">
+			
+			<div class="footeritems">
+				<h4>ABOUT US</h4>
+				<div class="border"></div>
+				<ul>
+					<a href=""><li>About Us</li></a>
+					<a href=""><li>Contact Us</li></a>
+				</ul>
+			</div>
+			<div class="footeritems">
+				<h4>HELP</h4>
+				<div class="border"></div>
+				<ul>
+					<a href=""><li>Payments</li></a>
+					<a href=""><li>Shipping</li></a>
+					<a href=""><li>Cancellation and ReturnsFAQ</li></a>
+					<a href=""><li>FAQ</li></a>
+				</ul>
+			</div>
 
-		
-	<table border="2">
-		<tbody>
-			<tr>
-				<td><h3>ABOUT US</h3></td>
-				<td><h3>HELP</h3></td>
-				<td><h3>POLICY</h3></td>
-				<td><h3>SOCIAL</h3></td>
-				<td><h3>REACH US</h3></td>
-			</tr>
-			<tr>
-				<td>Contact Us</td>
-				<td>Payments</td>
-				<td>Return Policy</td>
-				<td>Instagram</td>
-				<td>BURHANI VILLA, SADGURU SOCIETY,</td>
-			</tr>
-			<tr>
-				<td>About Us</td>
-				<td>Shipping</td>
-				<td>Terms of Use </td>
-				<td>Whatsapp</td>
-				<td>KILLA - PARDI, 396125,</td>
-			</tr>
+			<div class="footeritems">
+				<h4>POLICY</h4>
+				<div class="border"></div>
+				<ul>
+					<a href=""><li>Return Policy</li></a>
+					<a href=""><li>Terms of Use</li></a>
+					<a href=""><li>Security</li></a>
+					<a href=""><li>Privacy</li></a>
+				</ul>
+			</div>
 
-			<tr>
-				<td> </td>
-				<td>Cancellation and Returns</td>
-				<td>Security </td>
-				<td>Gmail</td>
-				<td>VALSAD, GUJARAT, INDIA</td>
-			</tr>
-			<tr>
-				<td> </td>
-				<td>FAQ</td>
-				<td>Privacy</td>
-				<td> </td>
-				<td>TELEPHONE : +91 9924378646</td>
-			</tr>
-		</tbody>
-	</table>
+			<div class="footeritems">
+				<h4>REACH US</h4>
+				<div class="border"></div>
+				<ul>
+					<a href=""><li><i class="fas fa-map-marked-alt"></i>BURHANI VILLA, SADGURU SOCIETY, KILLA - PARDI, 396125, VALSAD, GUJARAT, INDIA</li></a>
+					<a href=""><li><i class="fas fa-phone-alt"></i>TELEPHONE : +91 9924378646</li></a>
+				</ul>
+				<div class="socialmedia">
+					<a href=""><i class="fab fa-instagram"></i>Instagram</a>
+					<a href=""><i class="fab fa-whatsapp"></i>Whatsapp</a>
+					<a href=""><i class="fas fa-envelope"></i>Gmail</a>
+				</div>
+			</div>
+		</div>
+		<div class="footerbottom">
+			Copyrights &copy; Baggito 2020. All Rights Reserved.
+		</div>
+	</div>
+
 </body>
 </html>
